@@ -32,7 +32,7 @@ ALLOWED_HOSTS = environ.get("ALLOWED_HOSTS").split(" ")
 # Application definition
 
 INSTALLED_APPS = [
-    "pools.apps.PoolsConfig",
+    "polls.apps.PollsConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "django_docs_pools.urls"
+ROOT_URLCONF = "django_docs_polls.urls"
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "django_docs_pools.wsgi.application"
+WSGI_APPLICATION = "django_docs_polls.wsgi.application"
 
 
 # Database

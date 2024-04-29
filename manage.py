@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault(
-        "DJANGO_SETTINGS_MODULE", "django_docs_pools.settings"
+        "DJANGO_SETTINGS_MODULE", "django_docs_polls.settings"
     )
 
     from django.conf import settings
